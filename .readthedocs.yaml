@@ -9,7 +9,7 @@ build:
       - jupyter-book config sphinx docs/
 
 sphinx:
-  configuration: docs/_build/_generated/conf.py
+  configuration: docs/_build/html/_generated/conf.py
 
 python:
   install:
